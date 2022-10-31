@@ -403,6 +403,7 @@ const app = {
             {
                 app.nextSong();
                 audio.play();
+                app.activeSong()
             }
         }
         // Xử lý bài hát yêu thích
