@@ -40,6 +40,9 @@ const currentSongFavourite = $('.currentSong-favourite');
 const playlistBtn = $('.playlist-bar');
 const closeBtn = $('.playlist__close-btn');
 const musicWaves = $('.waves_container');
+const intro = $('.intro');
+const introBtn = $('.btn-intro');
+const closeIntroBtn = $('.intro__close-btn')
 const app = {
     currentIndex : 0,
     isPlaying : false,
@@ -435,6 +438,15 @@ const app = {
                 audio.play();
                 app.activeSong();
             }
+        }
+        // Xử lý intro
+        introBtn.onclick = function ()
+        {
+            intro.classList.add('show');
+        }
+        closeIntroBtn.onclick = function ()
+        {
+            intro.classList.remove('show')
         }
 
 
