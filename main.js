@@ -183,6 +183,12 @@ const app = {
             path: "./assets/music/MatMocAcousticVersion-PhamNguyenNgocVanhBMZ-7827498.mp3",
             img: "./assets/img/matmoc.jpg"
         },
+        {
+            name: "Love me more",
+            singer: "THE SHEEP",
+            path: "./assets/music/LoveMeMore-TheSheep-6040474.mp3",
+            img: "./assets/img/Lovememore.jpg"
+        },
 
 
     ],
